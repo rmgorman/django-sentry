@@ -9,7 +9,7 @@
     <ul class="messages" id="message_list">
         <li class="row1 active level-{{ message.level }}" data-sentry-count="{{ message.times_seen }}">
             <h3>
-                {{ message.message_top|truncatechars:100 }}
+                {{ message.message_top }}
                 {% if message.url %}
                      on {{ message.url }}
                 {% endif %}
