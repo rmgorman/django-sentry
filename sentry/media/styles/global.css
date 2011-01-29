@@ -302,6 +302,7 @@ dl.flat dd {
 .count-digits-5 { font-size: 0.7em; }
 
 /* message list */
+#message_list { clear: left; }
 .messages { list-style: none; margin-left: 0; }
 .messages li { list-style: none; }
 .messages .no-messages {
